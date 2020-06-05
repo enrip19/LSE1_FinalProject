@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_BPoogacQEeqXL9J369H0iQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_BPoogqcQEeqXL9J369H0iQ" bindingContexts="_BPooi6cQEeqXL9J369H0iQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;uartLib.c&quot; tooltip=&quot;IMULabs_proj/lib/uartLib.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/IMULabs_proj/lib/uartLib.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;misc.c&quot; tooltip=&quot;IMULabs_proj/lib/misc.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/IMULabs_proj/lib/misc.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;i2cLib.c&quot; tooltip=&quot;IMULabs_proj/lib/i2cLib.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/IMULabs_proj/lib/i2cLib.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;IMULabs_proj/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/IMULabs_proj/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;com.ti.rex.ccsplugin.editor.elementFactory&quot; id=&quot;com.ti.rex.ccsplugin.rexEditor&quot; name=&quot;TI Resource Explorer&quot; tooltip=&quot;TI Resource Explorer&quot;>&#xD;&#xA;&lt;persistable name=&quot;TI Resource Explorer&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;IMULabs/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/IMULabs/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;IMULabs_proj/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/IMULabs_proj/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;uartLib.c&quot; tooltip=&quot;IMULabs_proj/lib/uartLib.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/IMULabs_proj/lib/uartLib.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;misc.c&quot; tooltip=&quot;IMULabs_proj/lib/misc.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/IMULabs_proj/lib/misc.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;i2cLib.c&quot; tooltip=&quot;IMULabs_proj/lib/i2cLib.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/IMULabs_proj/lib/i2cLib.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;com.ti.rex.ccsplugin.editor.elementFactory&quot; id=&quot;com.ti.rex.ccsplugin.rexEditor&quot; name=&quot;TI Resource Explorer&quot; tooltip=&quot;TI Resource Explorer&quot;>&#xD;&#xA;&lt;persistable name=&quot;TI Resource Explorer&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;IMULabs/main.c&quot;>&#xD;&#xA;&lt;persistable path=&quot;/IMULabs/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>ModelMigrationProcessor.001</tags>
   <tags>activeSchemeId:com.ti.ccstudio.ui.keyBindingScheme</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_BPoogqcQEeqXL9J369H0iQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_BnJwoKcQEeqXL9J369H0iQ" x="677" y="-13" width="1024" height="768">
@@ -238,7 +238,7 @@
               </children>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_bRaIVKcQEeqSUY5wOyRUtg" containerData="7500" selectedElement="_bRaIXacQEeqSUY5wOyRUtg">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_bRaIVacQEeqSUY5wOyRUtg" containerData="2500" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_bRaIVacQEeqSUY5wOyRUtg" containerData="2500" selectedElement="_bRaIVqcQEeqSUY5wOyRUtg" horizontal="true">
                 <children xsi:type="basic:PartStack" xmi:id="_bRaIVqcQEeqSUY5wOyRUtg" elementId="topLeft" containerData="4500" selectedElement="_bRaIV6cQEeqSUY5wOyRUtg">
                   <children xsi:type="advanced:Placeholder" xmi:id="_bRaIV6cQEeqSUY5wOyRUtg" elementId="org.eclipse.debug.ui.DebugView" ref="_B0zLEKcQEeqXL9J369H0iQ" closeable="true">
                     <tags>View</tags>
@@ -264,7 +264,7 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_bRaIXacQEeqSUY5wOyRUtg" containerData="7500" selectedElement="_bRaIZqcQEeqSUY5wOyRUtg">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_bRaIXacQEeqSUY5wOyRUtg" containerData="7500" selectedElement="_bRaIXqcQEeqSUY5wOyRUtg">
                 <children xsi:type="basic:PartSashContainer" xmi:id="_bRaIXqcQEeqSUY5wOyRUtg" containerData="7000" selectedElement="_bRaIX6cQEeqSUY5wOyRUtg" horizontal="true">
                   <children xsi:type="advanced:Placeholder" xmi:id="_bRaIX6cQEeqSUY5wOyRUtg" elementId="org.eclipse.ui.editorss" containerData="7000" ref="_B0khkKcQEeqXL9J369H0iQ"/>
                   <children xsi:type="basic:PartStack" xmi:id="_bRaIYKcQEeqSUY5wOyRUtg" elementId="right" toBeRendered="false" containerData="3000">
@@ -377,7 +377,7 @@
           <tags>com.ti.rex.ccsplugin.rexEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_4-PkoKcQEeqSUY5wOyRUtg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="main.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; partName=&quot;main.c&quot; title=&quot;main.c&quot; tooltip=&quot;IMULabs_proj/main.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/IMULabs_proj/main.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;207&quot; selectionTopPixel=&quot;180&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; partName=&quot;main.c&quot; title=&quot;main.c&quot; tooltip=&quot;IMULabs_proj/main.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/IMULabs_proj/main.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;328&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
@@ -577,7 +577,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_BpYlQKcQEeqXL9J369H0iQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_SKDeEKcXEeqeJ8_2tQcmZQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_BQWaMKcQEeqXL9J369H0iQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_OSo7QKdREeqH-reNZIzD_Q" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_BQWaMKcQEeqXL9J369H0iQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_BpZMUKcQEeqXL9J369H0iQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -617,7 +617,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_BpZzYKcQEeqXL9J369H0iQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_SKDeHqcXEeqeJ8_2tQcmZQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_BQUlLacQEeqXL9J369H0iQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_OSrXgKdREeqH-reNZIzD_Q" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_BQUlLacQEeqXL9J369H0iQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_BpZzYacQEeqXL9J369H0iQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -3203,7 +3203,7 @@
   <addons xmi:id="_BPpPlqcQEeqXL9J369H0iQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_BPpPl6cQEeqXL9J369H0iQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_BPyZgKcQEeqXL9J369H0iQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_RtgE8KcXEeqeJ8_2tQcmZQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_BQOeYKcQEeqXL9J369H0iQ" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_BQOeYacQEeqXL9J369H0iQ" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
