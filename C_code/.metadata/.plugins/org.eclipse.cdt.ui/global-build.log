@@ -1,0 +1,111 @@
+
+**** Build of configuration Debug for project IMULabs ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1000/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs1000/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/enric/OneDrive - Universitat de Barcelona/UB/6e semestre/LSE1/Projecte final/C_code/IMULabs" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 2: fatal error #1965: cannot open source file "ti/devices/msp432p4xx/driverlib/driverlib.h"
+1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+Building file: "../lib/i2cLib.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1000/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs1000/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/enric/OneDrive - Universitat de Barcelona/UB/6e semestre/LSE1/Projecte final/C_code/IMULabs" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lib/i2cLib.d_raw" --obj_directory="lib"  "../lib/i2cLib.c"
+ 
+>> Compilation failure
+lib/subdir_rules.mk:9: recipe for target 'lib/i2cLib.obj' failed
+"..\lib\i2cLib.h", line 12: fatal error #1965: cannot open source file "ti/devices/msp432p4xx/driverlib/driverlib.h"
+1 catastrophic error detected in the compilation of "../lib/i2cLib.c".
+Compilation terminated.
+gmake: *** [lib/i2cLib.obj] Error 1
+Building file: "../lib/misc.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1000/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs1000/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/enric/OneDrive - Universitat de Barcelona/UB/6e semestre/LSE1/Projecte final/C_code/IMULabs" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lib/misc.d_raw" --obj_directory="lib"  "../lib/misc.c"
+ 
+>> Compilation failure
+lib/subdir_rules.mk:9: recipe for target 'lib/misc.obj' failed
+"../lib/misc.c", line 9: fatal error #1965: cannot open source file "ti/devices/msp432p4xx/driverlib/driverlib.h"
+1 catastrophic error detected in the compilation of "../lib/misc.c".
+Compilation terminated.
+gmake: *** [lib/misc.obj] Error 1
+Building file: "../lib/uartLib.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1000/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs1000/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/enric/OneDrive - Universitat de Barcelona/UB/6e semestre/LSE1/Projecte final/C_code/IMULabs" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lib/uartLib.d_raw" --obj_directory="lib"  "../lib/uartLib.c"
+ 
+>> Compilation failure
+lib/subdir_rules.mk:9: recipe for target 'lib/uartLib.obj' failed
+"..\lib\uartLib.h", line 8: fatal error #1965: cannot open source file "ti/devices/msp432p4xx/driverlib/driverlib.h"
+1 catastrophic error detected in the compilation of "../lib/uartLib.c".
+Compilation terminated.
+gmake: *** [lib/uartLib.obj] Error 1
+Building file: "../startup_msp432p401r_ccs.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1000/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs1000/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/enric/OneDrive - Universitat de Barcelona/UB/6e semestre/LSE1/Projecte final/C_code/IMULabs" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="startup_msp432p401r_ccs.d_raw"  "../startup_msp432p401r_ccs.c"
+Finished building: "../startup_msp432p401r_ccs.c"
+ 
+Building file: "../system_msp432p401r.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/ti/ccs1000/ccs/ccs_base/arm/include" --include_path="C:/ti/ccs1000/ccs/ccs_base/arm/include/CMSIS" --include_path="C:/Users/enric/OneDrive - Universitat de Barcelona/UB/6e semestre/LSE1/Projecte final/C_code/IMULabs" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/include" --advice:power=all --define=__MSP432P401R__ --define=ccs -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="system_msp432p401r.d_raw"  "../system_msp432p401r.c"
+"../system_msp432p401r.c", line 156: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+"../system_msp432p401r.c", line 189: remark #2624-D: (ULP 5.4) Detected an assignment to a type with size less than int. To avoid unnecessary sign extension, use int-sized types for local varaibles and convert to smaller types for static storage.
+Finished building: "../system_msp432p401r.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project IMULabs_proj ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../ccs/startup_msp432p401r_ccs.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/enric/OneDrive - Universitat de Barcelona/UB/6e semestre/LSE1/Projecte final/C_code/IMULabs_proj" --include_path="C:/ti/simplelink_msp432p4_sdk_3_40_01_02/source" --include_path="C:/ti/simplelink_msp432p4_sdk_3_40_01_02/source/third_party/CMSIS/Include" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/include" --advice:power=none --define=__MSP432P401R__ --define=DeviceFamily_MSP432P401x -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="ccs/startup_msp432p401r_ccs.d_raw" --obj_directory="ccs"  "../ccs/startup_msp432p401r_ccs.c"
+Finished building: "../ccs/startup_msp432p401r_ccs.c"
+ 
+Building file: "../system_msp432p401r.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/enric/OneDrive - Universitat de Barcelona/UB/6e semestre/LSE1/Projecte final/C_code/IMULabs_proj" --include_path="C:/ti/simplelink_msp432p4_sdk_3_40_01_02/source" --include_path="C:/ti/simplelink_msp432p4_sdk_3_40_01_02/source/third_party/CMSIS/Include" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/include" --advice:power=none --define=__MSP432P401R__ --define=DeviceFamily_MSP432P401x -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="system_msp432p401r.d_raw"  "../system_msp432p401r.c"
+Finished building: "../system_msp432p401r.c"
+ 
+Building file: "../lib/misc.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/enric/OneDrive - Universitat de Barcelona/UB/6e semestre/LSE1/Projecte final/C_code/IMULabs_proj" --include_path="C:/ti/simplelink_msp432p4_sdk_3_40_01_02/source" --include_path="C:/ti/simplelink_msp432p4_sdk_3_40_01_02/source/third_party/CMSIS/Include" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/include" --advice:power=none --define=__MSP432P401R__ --define=DeviceFamily_MSP432P401x -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="lib/misc.d_raw" --obj_directory="lib"  "../lib/misc.c"
+Finished building: "../lib/misc.c"
+ 
+Building file: "../lib/uartLib.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/enric/OneDrive - Universitat de Barcelona/UB/6e semestre/LSE1/Projecte final/C_code/IMULabs_proj" --include_path="C:/ti/simplelink_msp432p4_sdk_3_40_01_02/source" --include_path="C:/ti/simplelink_msp432p4_sdk_3_40_01_02/source/third_party/CMSIS/Include" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/include" --advice:power=none --define=__MSP432P401R__ --define=DeviceFamily_MSP432P401x -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="lib/uartLib.d_raw" --obj_directory="lib"  "../lib/uartLib.c"
+Finished building: "../lib/uartLib.c"
+ 
+Building file: "../lib/i2cLib.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/enric/OneDrive - Universitat de Barcelona/UB/6e semestre/LSE1/Projecte final/C_code/IMULabs_proj" --include_path="C:/ti/simplelink_msp432p4_sdk_3_40_01_02/source" --include_path="C:/ti/simplelink_msp432p4_sdk_3_40_01_02/source/third_party/CMSIS/Include" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/include" --advice:power=none --define=__MSP432P401R__ --define=DeviceFamily_MSP432P401x -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="lib/i2cLib.d_raw" --obj_directory="lib"  "../lib/i2cLib.c"
+Finished building: "../lib/i2cLib.c"
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/enric/OneDrive - Universitat de Barcelona/UB/6e semestre/LSE1/Projecte final/C_code/IMULabs_proj" --include_path="C:/ti/simplelink_msp432p4_sdk_3_40_01_02/source" --include_path="C:/ti/simplelink_msp432p4_sdk_3_40_01_02/source/third_party/CMSIS/Include" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/include" --advice:power=none --define=__MSP432P401R__ --define=DeviceFamily_MSP432P401x -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "IMULabs_proj.out"
+Invoking: ARM Linker
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=none --define=__MSP432P401R__ --define=DeviceFamily_MSP432P401x -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"IMULabs_proj.map" --stack_size=512 -i"C:/ti/simplelink_msp432p4_sdk_3_40_01_02/source" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-arm_20.2.0.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="IMULabs_proj_linkInfo.xml" --rom_model -o "IMULabs_proj.out" "./main.obj" "./system_msp432p401r.obj" "./ccs/startup_msp432p401r_ccs.obj" "./lib/i2cLib.obj" "./lib/misc.obj" "./lib/uartLib.obj" "../msp432p401r.cmd"  -l"ti/display/lib/display.aem4f" -l"ti/grlib/lib/ccs/m4f/grlib.a" -l"third_party/spiffs/lib/ccs/m4f/spiffs.a" -l"ti/drivers/lib/drivers_msp432p401x.aem4f" -l"third_party/fatfs/lib/ccs/m4f/fatfs.a" -l"ti/devices/msp432p4xx/driverlib/ccs/msp432p4xx_driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "IMULabs_proj.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project IMULabs_proj ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'IMULabs_proj.out' is up to date.
+
+**** Build Finished ****
